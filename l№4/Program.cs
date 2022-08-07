@@ -12,7 +12,6 @@ b = Convert.ToInt32(Console.ReadLine());
 c = Convert.ToInt32(Console.ReadLine());
     {
         int max=a;
-        if (a > b) max=a;
             if (b > max) max=b;
                 if(c > max) max=c;
                     if ((max==a)&&(max==b)&&(max==c)) Console.WriteLine("Все три числа равны!");
